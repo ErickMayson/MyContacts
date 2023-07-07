@@ -6,5 +6,4 @@ export const Container = styled.header`
   flex-direction: column;
   align-items: center;
   margin-bottom: 48px;
-
 `;

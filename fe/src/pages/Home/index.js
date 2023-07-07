@@ -6,10 +6,18 @@ import {
 import arrow from '../../assets/images/arrow.svg';
 import edit from '../../assets/images/edit.svg';
 import trash from '../../assets/images/delete.svg';
+// eslint-disable-next-line no-unused-vars
+import Modal from '../../components/Modal';
+// eslint-disable-next-line no-unused-vars
+import Loader from '../../components/Loader';
 
-export default function Home() {
+export default function Home() { // Ao colocar somente o nome da propriedade 'danger'
+  // Ela assume como seu valor booleano o True
   return (
     <Container>
+      {'<Loader />'}
+      {'<Modal danger />'}
+
       <InputSearchContainer>
         <input type="text" width="201" placeholder="Pesquisar contato..." />
       </InputSearchContainer>

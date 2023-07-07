@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 24px;
+  position: relative;
 `;
 
 export const InputSearchContainer = styled.div`
